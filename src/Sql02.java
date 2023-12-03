@@ -1,7 +1,6 @@
 import java.sql.*;
-import java.util.ArrayList;
 
-public class Dbtest {
+public class Sql02 {
     //db parameters
     private static final String DB_URL = "jdbc:mysql://localhost:3306/newdb";
     private static final String USER = "root";
