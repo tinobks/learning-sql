@@ -1,5 +1,14 @@
 import java.sql.*;
 
+//create a connection to the newdb database
+//create a table students if not already existing with
+//the following columns:
+//student_id as integer (10 digits) that is NOT NULL AUTO_INCREMENT
+//last_name as string (max 30 characters)
+//first_name as string (max 30 characters)
+//the constraint that students_pk is the PRIMARY KEY using only the column student_id
+//populate the table with 4 random students
+
 public class Sql02 {
     //db parameters
     private static final String DB_URL = "jdbc:mysql://localhost:3306/newdb";
